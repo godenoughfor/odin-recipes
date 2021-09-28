@@ -1,0 +1,64 @@
+* {
+  font-family: Nunito;
+  background-color: rgb(235, 235, 228);
+  color: rgb(59, 59, 59);
+  transition: ease-in 1s;
+}
+
+body{ 
+  opacity: 0;
+  transition: opacity 2s;
+  -webkit-transition: opacity 2s; /* Safari */
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: justify;
+}
+
+ul  {
+  border: 2px dashed rgb(59, 59, 59);
+  margin: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+ol {
+  margin-left: 20px;
+}
+
+ol > li::marker {
+  font-weight: bold;
+}
+
+a {
+  transition: color 1s;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.recipes {
+  border: 0px;
+}
+
+a:visited {
+  color: rgb(102, 129, 61);
+}
+
+a:hover {
+  color: rgb(179, 83, 83);
+}
